@@ -1,0 +1,65 @@
+Volevo segnalare una curiosa discrepanza tra i vari aggiornamenti del'iss e della protezione civile circa il numero di deceduti nell'intervallo di tempo tra il 21/05/21 e il 20/06/21. Purtroppo non ho avuto il tempo di controllare gli altri mesi.
+
+Questo è il famoso link dell'iss che mostra quanto sia efficace il vaccino, andare a pagina 35 di questo link:
+https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_14-luglio-2021.pdf
+
+se si vanno a sommare il numero di morti dal 21/05/21 al 20/06/21 si ottengono in totale 497 (sommando a tutte le età e vaccinati e non vaccinati)
+
+MA
+
+Ora se andiamo sul sito epicentro.iss.it, a questo link
+https://www.epicentro.iss.it/coronavirus/sars-cov-2-sorveglianza-dati
+
+e andiamo alla sezione "Open Data" e scarichiamo il file xlsx “COVID-19 ISS open data” (aggiornamento giornaliero)
+https://www.epicentro.iss.it/coronavirus/open-data/covid_19-iss.xlsx
+
+andando in basso, alla voce "decessi" e facendo la somma di tutti i decessi sempre tra il 21/05/21 e il 20/06/21 il risultato è 1661!!
+(un mese fa tale file excel contava nello stesso intervallo di tempo 1668 morti!!).
+Va bene un aggiornamento di dati, ma qui sono stati conteggiati più di 1000 morti in più!
+
+INOLTRE
+
+Lo stessa iss nell'aggiornamento al 26 maggio 2021 (vedere il seguente link a pag.15):
+https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_26-maggio-2021.pdf
+
+riporta che il numero totale di morti è 123278
+
+mentre nell'aggiornamento 30/06/2021 (vedere pag.14)
+https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_30-giugno-2021.pdf
+
+riporta che il numero di morti è 126612. Quindi 126612 - 123278 = 3334 morti!!!!
+
+Quindi tra 26 maggio 2021 e il 30/06/2021, intervallo di tempo molto vicino a quello finora visto (21/05/21 - 20/06/21), la stessa fonte dell'iss (la task force) dice che ci sono 3334 morti!
+
+VEDIAMO ORA LA PROTEZIONE CIVILE
+
+Per prelevare i dati dalla protezione civile il procedimento è un pò fastidioso
+
+Andare sul sito della protezione civile
+https://dati-covid.italia.it/
+
+Andare su "Andamento nazionale Covid-19", sul link "Vai al Dataset"
+https://github.com/pcm-dpc/COVID-19
+
+Andare sulla cartella "dati-json"
+https://github.com/pcm-dpc/COVID-19/tree/master/dati-json
+
+cliccando su "dpc-covid19-ita-andamento-nazionale.json" si arriva finalmente a:
+https://github.com/pcm-dpc/COVID-19/blob/master/dati-json/dpc-covid19-ita-andamento-nazionale.json
+
+Qui vengono raccolti giorno per giorno un insieme di dati, come "data", "tamponi", "dimessi_guariti"... i dati di ogni giorno vengono racchiusi con delle parentesi graffe. Scorrendo molto in basso, alle date che ci interessano notiamo che:
+
+Alla voce "deceduti" (totali) del 21/05/21 si ha: 125028
+Alla voce "deceduti" (totali) del 20/06/21 si ha: 127270
+
+Quindi secondo la protezione civile dal 21/05/21 al 20/06/21 sono morti in totale: 2242
+
+Suggerisco di conservare i vari bollettini perché cambiano sempre di volta in volta nel medesimo intervallo di tempo
+
+Consiglio inoltre di controllare e verificare di nuovo queste fonti perché potrei aver sbagliato io qualcosa.
+
+Riassumendo l'iss nel giro di pochi mesi fa variare il numero di morti da 497 a 1661 a 3334, mentre la protezione civile ne riporta 2242!!!
+
+Qui mi chiedo se ho sbagliato io qualcosa nel vedere questi dati, alcuni aggiornamenti avvengono in modo rallentato oppure vengono scritti dati a caso?
+
+Ti auguro buona continuazione.
